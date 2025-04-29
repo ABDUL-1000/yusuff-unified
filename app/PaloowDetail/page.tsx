@@ -19,7 +19,7 @@ const PaloowDetail = () => {
       <h1 className='text-[44px] mt-8 text-[#fff]'>Problem Statement</h1>
       <p>Todays users are overwhelmed by fragmented apps that each serve one need—Payloow solves this by offering a unified, simple, and smarter ecosystem where everything can be done under one roof without repetitive setups.</p>
       <h1 className='text-[44px] mt-8 text-[#fff]'>Objectives</h1>
-      <p>Build a multi-module app (Bills, Easybuy, E-learning, Investment) accessible via one profile.
+      <p>Build a multi-module app Bills, Easybuy, E-learning, Investment accessible via one profile.
 Offer both user and admin interfaces.
 Provide a reseller system with benefits like discounted rates.
 Enable smooth onboarding and profile setup.
@@ -27,9 +27,9 @@ Create efficient and intuitive admin dashboards for managing all modules.</p>
 <h1 className='text-[44px] mt-8 text-[#fff]'>Research & Understanding</h1>
 <p>1. Google Form Survey
 I designed and shared a Google Form survey targeting potential users from diverse backgrounds. The survey focused on understanding:
-How users currently manage their daily services (bills, shopping, learning, investment).
+How users currently manage their daily services like bills, shopping, learning, investment.
 Their frustrations with using multiple apps.
-Their expectations from an “all-in-one” platform.
+Their expectations from an all-in-one platform.
 Features that would motivate them to switch to a single ecosystem.
 Key Insights from the Survey:
 90% of users preferred a one-time profile setup over filling out information multiple times.
@@ -45,7 +45,7 @@ Key Insights from Interviews:
 Users want a platform they can trust with both personal and financial information.</p>
 <h1 className='text-[44px] mt-8 text-[#fff]'>User persona & Flow</h1>
 <p>This section presents the ideal users for Payloow, capturing their backgrounds, goals, frustrations, and behavior patterns. By understanding their needs and motivations, we ensure the product is designed to solve real problems and deliver a smooth, rewarding experience.
-My User Flow section outlines the journey a typical user takes when interacting with Payloow — from account registration, profile setup, and navigating between the mini-apps like Bills, EasyBuy, E-learning, Investment, to completing specific tasks like purchasing, investing, or learning. This flow helps structure the app and ensure it’s design to feel intuitive and minimize user effort.</p>
+My User Flow section outlines the journey a typical user takes when interacting with Payloow — from account registration, profile setup, and navigating between the mini-apps like Bills, EasyBuy, E-learning, Investment, to completing specific tasks like purchasing, investing, or learning. This flow helps structure the app and ensure its design to feel intuitive and minimize user effort.</p>
 
 <Image src="/payloowdetail2.jpg" alt="payloow" width={300} height={300} className='w-[60%] h-[30%] mx-auto'  />
 <h1 className='text-[44px] mt-8 text-[#fff]'>Ui Designs</h1>
@@ -65,8 +65,8 @@ Resellers can now save money easily and promote their organizations. Admin has c
 <h1 className='text-[44px] mt-8 text-[#fff]'>Final Thoughts</h1>
 <p>This project challenged me to think beyond just "app design".  It was about building a full ecosystem that feels natural and effortless for different types of users. Payloow shows how smart design can simplify life — one click, one login, endless possibilities.</p>
 <Footer/>
-    </div>
+</div>
   )
-}
+};
 
-export default PaloowDetail
+export default PaloowDetail;
