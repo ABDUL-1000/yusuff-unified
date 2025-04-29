@@ -20,10 +20,10 @@ import Link from "next/link";
  
   
           <Button variant="ghost" className="flex items-center gap-2" asChild>
-            <Link href="#projects">
+            <a href="#projects">
             
               <span className="hidden lg:inline text-[#CACACA] font-[Work_Sans] text-[18px] not-italic font-medium leading-[24px]">Projects</span>
-            </Link>
+            </a>
           </Button>
           <Button variant="ghost" className="flex items-center gap-2" asChild>
             <a href="https://drive.google.com/file/d/1Q73-NYX79qFhRdmvtgwPXKwZAL8DJRhd/view?usp=drive_link"

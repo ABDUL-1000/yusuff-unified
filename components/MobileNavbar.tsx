@@ -12,7 +12,7 @@ import {
 
 import { Button } from "./ui/button";
 
-import Link from "next/link";
+
 
 
 function MobileNavbar() {
@@ -21,56 +21,56 @@ function MobileNavbar() {
 
 
   return (
-    <div className="md:hidden space-x-2">
+    <div className="md:hidden space-x-2 ">
     
     
 
       <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
         <SheetTrigger>
          
-           <img src="/Frame 30.png" alt="menuIcon" className="w-6 h-6"/>
+           <img src="/Frame 30.png" alt="menuIcon" className="w-8 h-8"/>
          
         </SheetTrigger>
-        <SheetContent side="right" className="w-[90%]">
+        <SheetContent side="right" className="w-[80%] text-white bg-[#0C0C0C]">
           <SheetHeader>
-            <SheetTitle>Menu</SheetTitle>
+            <SheetTitle className="text-white font-[Work_Sans] text-[16px] not-italic font-medium leading-[24px] ">Menu</SheetTitle>
           </SheetHeader>
           <nav className="flex flex-col space-y-2 mt-6">
             <Button
               variant="ghost"
-              className="flex items-center gap-3 justify-start"
+              className="flex items-center text-white gap-3 justify-start"
               asChild
             >
-              <Link href="/">
+              <a href="/TheStory">
                
                 The story
-              </Link>
+              </a>
             </Button>
             <Button
               variant="ghost"
-              className="flex items-center gap-3 justify-start"
+              className="flex items-center gap-3  text-white justify-start"
               asChild
             >
-              <Link href="/">
+              <a href="#projects">
                
                 Projects
-              </Link>
+              </a>
             </Button>
             <Button
               variant="ghost"
-              className="flex items-center gap-3 justify-start"
+              className="flex text-white items-center gap-3 justify-start"
               asChild
             >
-              <Link href="/">
+              <a href="https://drive.google.com/file/d/1Q73-NYX79qFhRdmvtgwPXKwZAL8DJRhd/view?usp=drive_link">
                
                 Resume
-              </Link>
+              </a>
             </Button>
             <Button  className="flex items-center gap-2 px-6 bg-[#0072FF] rounded-lg " asChild>
-            <Link href="/Notifications">
+            <a href="#contact">
             
               <span className="  text-white font-[Work_Sans] text-[18px] not-italic font-medium leading-[24px] ">Let’s build</span>
-            </Link>
+            </a>
           </Button>
          
           </nav>
