@@ -36,7 +36,7 @@ const Project = () => {
   const visibleProjects = showAll || isLargeScreen ? projects : projects.slice(0, 3)
 
   return (
-    <div className='py-10'>
+    <div className='py-10' id='projects'>
       <motion.h1
         className='text-[#535353] text-center lg:text-start font-[Work_Sans] text-[44px] not-italic font-medium leading-none'
         initial={{ opacity: 0, y: -20 }}

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Journey = () => {
   return (
-    <div className="py-5">
+    <div className="py-5 " id="journey">
       <motion.h1
         className="text-[#535353] text-[44px] text-center font-[Work_Sans] lg:text-[44px] not-italic font-medium leading-none"
         initial={{ opacity: 0, y: -20 }}

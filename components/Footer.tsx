@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Footer = () => {
   return (
     <div>
-       <div className="py-10 flex flex-col items-center">
+       <div className="py-10 flex flex-col items-center" id='contact'>
       <h1
         className="text-[#ECECEC] lg:text-center font-[Work_Sans] text-[44px] lg:text-[77px] font-medium"
        
