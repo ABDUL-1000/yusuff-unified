@@ -31,6 +31,8 @@ const Journey = () => {
                 <Image
                   src={item.img}
                   alt="Icon"
+                  width={40}
+                  height={40}
                   className="lg:w-10 lg:h-10 w-10 h-10 rounded-full object-cover"
                 />
                 <div className="flex flex-col">

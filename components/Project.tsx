@@ -56,6 +56,8 @@ const Project = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <Image
+            width={327}
+            height={240}
               src={project.img}
               alt={project.title}
               className="w-full h-[240px] object-cover"

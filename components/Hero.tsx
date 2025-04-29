@@ -15,6 +15,8 @@ const Hero = () => {
           <Image
             src="/yusufpics.png"
             alt="Yusuf Unfiltered"
+            width={327}
+            height={322}
             className="lg:w-[327.671px] lg:h-[322px]"
           />
         </motion.div>        {/* Text in front */}

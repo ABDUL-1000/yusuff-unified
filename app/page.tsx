@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <motion.div
-      className="p-2 "
+      className="p-2 bg-[#0C0C0C] overflow-x-hidden"
       initial={{ opacity: 0 }} // Start with opacity 0
       animate={{ opacity: 1 }} // Animate to opacity 1
       transition={{ duration: 1 }} // 1 second duration
