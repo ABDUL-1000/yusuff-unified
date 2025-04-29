@@ -1,7 +1,7 @@
 import { Button } from './ui/button'
 import React from 'react'
 import { CiMail } from "react-icons/ci";
-import { motion } from 'framer-motion'; 
+
 
 
 const Footer = () => {
