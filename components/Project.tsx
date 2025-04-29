@@ -3,12 +3,10 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { projects } from './data'
+import Image from 'next/image'
 
 const Project = () => {
-  const container = {
-    hidden: {},
-    show: { transition: { staggerChildren: 0.15 } },
-  }
+ 
 
   const itemLeft = {
     hidden: { opacity: 0, x: -50 },
@@ -57,7 +55,7 @@ const Project = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <img
+            <Image
               src={project.img}
               alt={project.title}
               className="w-full h-[240px] object-cover"

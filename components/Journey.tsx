@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion"; // Import framer-motion
 import { Journeyy } from "./data";
+import Image from "next/image";
 
 const Journey = () => {
   return (
@@ -27,7 +28,7 @@ const Journey = () => {
             >
               {/* Main Content */}
               <div className="flex items-center space-x-4">
-                <img
+                <Image
                   src={item.img}
                   alt="Icon"
                   className="lg:w-10 lg:h-10 w-10 h-10 rounded-full object-cover"
