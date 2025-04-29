@@ -1,5 +1,5 @@
 'use client'
-import { useState } from "react";
+
 import { motion } from "framer-motion"; // Import framer-motion
 
 import "@/app/globals.css";
@@ -9,10 +9,6 @@ import Journey from "@/components/Journey";
 import Voice from "@/components/Voice";
 import Footer from "@/components/Footer";
 
-// import Project from "@/component/Project";
-// import Journey from "@/component/Journey";
-// import Voice from "@/component/Voice";
-// import Footer from "@/component/Footer";
 
 export default function Home() {
   return (

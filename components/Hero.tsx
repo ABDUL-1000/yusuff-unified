@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -11,14 +12,12 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
         >
-          <img
+          <Image
             src="/yusufpics.png"
             alt="Yusuf Unfiltered"
             className="lg:w-[327.671px] lg:h-[322px]"
           />
-        </motion.div>
-
-        {/* Text in front */}
+        </motion.div>        {/* Text in front */}
         <motion.div
           className="mt-4 lg:hidden"
           initial={{ opacity: 0 }}
