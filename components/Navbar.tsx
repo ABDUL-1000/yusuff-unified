@@ -5,7 +5,7 @@ import MobileNavbar from './MobileNavbar'
 
 const Navbar = () => {
   return (
-    <nav className='sticky top-0 bg-background/95  w-full h-16 z-50 backdrop-blur supports-[backdrop-filter]:bg-bg/96'>
+    <nav className='sticky top-0 bg-bg/94  w-full h-16 z-50 backdrop-blur supports-[backdrop-filter]:bg/96'>
       <div className='max-w-7xl lg:mx-[140px] px-4 bg-[#0C0C0C]'>
         <div className='flex justify-between items-center h-16' >
             <div className='flex items-center'>

@@ -10,6 +10,7 @@ import Voice from "@/components/Voice";
 import Footer from "@/components/Footer";
 
 
+
 export default function Home() {
   return (
     <motion.div
@@ -22,7 +23,8 @@ export default function Home() {
       <Project />
       <Journey />
       <Voice />
-      <Footer />
+      <Footer/>
+      
     </motion.div>
   );
 }

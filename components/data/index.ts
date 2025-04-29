@@ -16,7 +16,7 @@ export const navItems = [
       des: "Figma · Mobile & Web",
       img: "/payloow.jpg",
      
-      link: "",
+      link: "/PaloowDetail",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ export const navItems = [
       des: "Figma · Mobile & Web",
       img: "/xtate.jpg",
       
-      link: "",
+      link: "XtateDetail",
     },
     {
       id: 3,

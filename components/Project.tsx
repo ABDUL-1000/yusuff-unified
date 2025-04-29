@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { projects } from './data'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Project = () => {
  
@@ -74,7 +75,9 @@ const Project = () => {
               </div>
 
               <div className="flex justify-between items-center">
-                <a
+                {
+                  project.link.startsWith('https://') ? (
+                    <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -82,6 +85,19 @@ const Project = () => {
                 >
                   View Project
                 </a>
+                    
+                  ):(
+                    <Link
+                    href={project.link}
+          
+                    rel="noopener noreferrer"
+                    className="text-[#0072FF] font-[Manrope] text-[10px] lg:text-[16px] not-italic font-medium leading-none underline"
+                  >
+                 View Project
+                  </Link>
+                  )
+                }
+                
               </div>
             </div>
           </motion.div>

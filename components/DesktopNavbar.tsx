@@ -12,7 +12,7 @@ import Link from "next/link";
     <div className="hidden md:flex space-x-4">
     
       <Button variant="ghost" className="flex items-center gap-2" asChild>
-        <Link href="/">
+        <Link href="/TheStory">
        
           <span className="hidden lg:inline text-[#CACACA] font-[Work_Sans] text-[18px] not-italic font-medium leading-[24px]">The strory</span>
         </Link>
