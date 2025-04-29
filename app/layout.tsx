@@ -31,7 +31,7 @@ export default function RootLayout({
          enableSystem
          disableTransitionOnChange>
           <Navbar/>
-          <main className="lg:mx-[140px]">
+          <main className="lg:mx-[140px] bg-[#0C0C0C]">
 
           {/* container to center the content */}
          
