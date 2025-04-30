@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Footer from '@/components/Footer'
 import Image from 'next/image'
 import React from 'react'
@@ -63,7 +65,7 @@ Added tab navigation for easy module switching on the admin side.</p>
 <p>Smoother onboarding for users.
 Resellers can now save money easily and promote their organizations. Admin has complete visibility and can manage all operations without complexity.</p>
 <h1 className='text-[44px] mt-8 text-[#fff]'>Final Thoughts</h1>
-<p>This project challenged me to think beyond just "app design".  It was about building a full ecosystem that feels natural and effortless for different types of users. Payloow shows how smart design can simplify life — one click, one login, endless possibilities.</p>
+<p>This project challenged me to think beyond just app design.  It was about building a full ecosystem that feels natural and effortless for different types of users. Payloow shows how smart design can simplify life — one click, one login, endless possibilities.</p>
 <Footer/>
 </div>
   )
