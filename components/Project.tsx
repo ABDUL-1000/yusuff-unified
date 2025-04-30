@@ -5,6 +5,14 @@ import { motion } from 'framer-motion'
 import { projects } from './data'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Manrope } from 'next/font/google'
+
+const manrope = Manrope({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'], // choose the font weights you need
+})
+
+
 
 const Project = () => {
  
@@ -38,7 +46,7 @@ const Project = () => {
   return (
     <div className='py-10' id='projects'>
       <motion.h1
-        className='text-[#535353] text-center lg:text-start font-[Work_Sans] text-[44px] not-italic font-medium leading-none'
+        className='text-[#535353]  text-center lg:text-start font-[Work_Sans] text-[44px] not-italic font-semibold leading-none'
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}

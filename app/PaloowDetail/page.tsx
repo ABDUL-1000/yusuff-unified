@@ -1,18 +1,26 @@
 /* eslint-disable react/no-unescaped-entities */
-
+import { Work_Sans } from 'next/font/google'
 import Footer from '@/components/Footer'
 import Image from 'next/image'
 import React from 'react'
+const workSans = Work_Sans({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'], // choose the font weights you need
+})
 
 const PaloowDetail = () => {
+  
+
   return (
     <div>
       <div className='w-full'>
-      <h1 className='uppercase lg:text-[44px] text-[#fff]'>
-      Payloow
+      <h1
+  className={`${workSans.className} text-[#ECECEC] text-[44px] font-semibold uppercase`}
+>
+  Payloow
+</h1>
       <span className='text-[44px] px-4'>.</span>
       <span>Smart Living, Simplified.</span>
-      </h1>
       </div>
       <Image src="/paylooww1.png" alt="payloow" width={300} height={300} className='w-[60%] h-[30%] mx-auto'  />
       <h1 className='text-[44px] mt-8 text-[#fff]'>Brief Overview</h1>

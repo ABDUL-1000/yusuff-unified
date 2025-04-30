@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { Work_Sans } from 'next/font/google'
+
+const workSans = Work_Sans({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'], // choose the font weights you need
+})
 
 const Hero = () => {
   return (
@@ -26,7 +32,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1 }}
         >
-          <h1 className="text-start font-[Manrope] lg:text-[25px] not-italic text-[#CACACA] lg:text-center font-manrope text-[13px] lg:not-italic lg:font-medium  font-medium leading-none">
+          <h1 className={`${workSans.className} text-start font-[Manrope] lg:text-[25px] not-italic text-[#CACACA] lg:text-center font-manrope text-[13px] lg:not-italic lg:font-medium  font-medium leading-none`}>
             Hi, I’m Yusuf. UI/UX designer who loves turning rough ideas into smooth digital experiences. If it needs to be clean, clear, and a little bit cool—you’re in the right place.
           </h1>
         </motion.div>
@@ -37,7 +43,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 1 }}
         >
-          <h1 className="text-[#ECECEC] text-[25px] font-[Work_Sans] lg:text-[170px] italic font-extrabold leading-none uppercase">
+          <h1 className={` ${workSans.className}text-[#ECECEC] text-[25px] font-[Work_Sans] lg:text-[170px] italic font-extrabold leading-none uppercase`}>
             UI/UX Designer
           </h1>
         </motion.div>
@@ -49,8 +55,8 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        <h1 className="text-start hidden lg:block font-[Manrope] lg:text-[25px] not-italic text-[#CACACA] lg:text-center font-manrope text-[13px] lg:not-italic lg:font-medium  font-medium leading-none">
-          Hi, I’m Yusuf. UI/UX designer who loves turning rough ideas into smooth digital experiences. If it needs to be clean, clear, and a little bit cool—you’re in the right place.
+        <h1 className={` ${workSans.className}text-start hidden lg:block font-[Manrope] lg:text-[25px] not-italic text-[#CACACA] lg:text-center font-manrope text-[13px] lg:not-italic lg:font-medium  font-medium leading-normal`}>
+          Hi, I’m <span className="text-[#ffffff]">Yusuf.</span>  UI/UX designer who loves turning rough ideas into smooth digital experiences. If it needs to be clean, clear, and a little bit cool—you’re in the right place.
         </h1>
       </motion.div>
     </div>
