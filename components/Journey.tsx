@@ -40,19 +40,19 @@ const Journey = () => {
                     <p className="text-white font-[Work_Sans] text-[9px] not-italic font-medium lg:text-[24px] line-clamp-1">
                       {item.quote}
                     </p>
-                    <p className="text-white font-[Work_Sans] text-[9px] not-italic font-normal">
+                    <p className="text-white font-[Work_Sans] text-[9px] lg:text-[12px] not-italic font-normal">
                       {item.duration}
                     </p>
                   </div>
 
-                  <p className="text-[#757575] hidden lg:block md:block font-[Manrope] text-[16px] not-italic font-medium">
+                  <p className="text-[#757575] hidden lg:block md:block font-[Manrope]  text-[16px] not-italic font-medium">
                     {item.time}
                   </p>
                 </div>
               </div>
 
               {/* Story Section */}
-              <div className="text-[#CACACA] font-[Work_Sans] text-[10px] not-italic font-normal">
+              <div className="text-[#CACACA] font-[Work_Sans] text-[10px] lg:text-[16px] w-[80%] not-italic font-normal">
                 {item.story}
               </div>
             </motion.div>
