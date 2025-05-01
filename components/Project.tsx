@@ -77,7 +77,7 @@ const Project = () => {
                 <h2 className="text-[#D5D7DA] font-[Manrope] text-[12px] not-italic font-semibold leading-none">
                   {project.title}
                 </h2>
-                <p className='text-[#757575] font-[Manrope] mt-1 text-[9px] not-italic font-medium leading-none'>
+                <p className={ `${manrope.className} text-[#757575]  mt-1 text-[9px] not-italic font-medium leading-none`}>
                   {project.des}
                 </p>
               </div>
