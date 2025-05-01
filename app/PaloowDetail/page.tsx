@@ -19,7 +19,7 @@ const PaloowDetail = () => {
 >
   Payloow
 </h1>
-      <span className='text-[44px] px-4'>.</span>
+      <span className='text-[44px] px-4 text-white'>.</span>
       <span>Smart Living, Simplified.</span>
       </div>
       <Image src="/paylooww1.png" alt="payloow" width={300} height={300} className='w-[60%] h-[30%] mx-auto'  />
