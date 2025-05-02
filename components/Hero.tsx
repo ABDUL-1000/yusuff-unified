@@ -43,7 +43,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 1 }}
         >
-          <h1 className={` ${workSans.className}text-[#ECECEC] text-[25px] font-[Work_Sans] lg:text-[170px] italic font-extrabold leading-none uppercase`}>
+          <h1 className={` ${workSans.className}text-[#ECECEC] lg:text-[#ECECEC] md:text-[#ECECEC]  text-[25px] font-[Work_Sans] lg:text-[170px] italic font-extrabold leading-none uppercase`}>
             UI/UX Designer
           </h1>
         </motion.div>

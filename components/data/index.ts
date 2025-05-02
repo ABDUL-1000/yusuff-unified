@@ -32,7 +32,7 @@ export const navItems = [
       des: "Arewaflix",
       img: "/arewa.jpg",
     
-      link: "https://stage-3-hng-psi.vercel.app/",
+      link: "https://youtu.be/hGHXB3F3GOw?si=0yneBC_2m_MBPbun",
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ export const navItems = [
       des: "Figma · Web App",
       img: "/onims.jpg",
      
-      link: "",
+      link: "https://onims.vercel.app/",
     },
     {
       id: 5,
@@ -73,8 +73,8 @@ export const navItems = [
     },
     {
       quote:
-        "UI/UX Designer @Co-development Hub",
-      time: "Fulltime · Onsite",
+        "UI/UX Designer @Appfur",
+      time: "Freelance · Onsite",
       story: "Joined as an onsite designer working on exciting in-house products and community-driven projects. Active in hub programs and collaborative initiatives.",
       img: "/Frame 30 (2).png",
       duration:'Apr 2025 – Present'
